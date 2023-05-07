@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "just-coords",
+  "version": "${version}",
+  "name": "JustCoords",
+  "description": "This mod display coordinates Bedrock-style",
+  "authors": [
+    "ddruganov@bk.ru"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/justCoords/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ddruganov.justCoords.JustCoordsMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
